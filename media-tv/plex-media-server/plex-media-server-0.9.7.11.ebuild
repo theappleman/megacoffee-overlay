@@ -23,7 +23,7 @@ INIT_SCRIPT="${ROOT}/etc/init/plexmediaserver"
 
 pkg_setup() {
 	enewgroup plex
-	enewuser plex -1 /bin/bash /var/lib/plexmediaserver "plex" --system
+	enewuser plex -1 /bin/bash /var/lib/plexmediaserver "plex"
 }
 
 pkg_preinst() {
